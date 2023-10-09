@@ -20,7 +20,7 @@ const BlogDetails = ({ post }) => {
           <NavLink
             key={index}
             to={`/tags/${tag.replaceAll(' ', '-')}`}
-            className="text-blue-600 font-bold text-sm mt-2 mr-2"
+            className="text-blue-400 font-bold text-sm mt-2 mr-2"
           >
             {`#${tag}`}
           </NavLink>
