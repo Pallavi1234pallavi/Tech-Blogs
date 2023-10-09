@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const BlogDetails = ({ post }) => {
   return (
-    <div className="max-w-[400px] mx-auto p-4 ml-10 mr-7 mb-8 bg-opacity-80 backdrop-blur-md border border-gray-200 rounded-xl text-white text-shadow-lg">
+    <div className="max-w-[400px] mx-auto p-4 ml-10 mr-7 mb-8 bg-opacity-50 bg-black backdrop-blur-md border border-gray-200 rounded-xl text-white text-shadow-lg">
       <NavLink to={`/blog/${post.id}`} className="block">
         <h2 className="font-bold text-lg mb-2">{post.title}</h2>
       </NavLink>
