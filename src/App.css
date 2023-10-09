@@ -7,8 +7,35 @@
 html,
 body {
     overflow-x: hidden;
+
 }
 
 body {
     font-family: 'Inter', sans-serif;
 }
+.font-comic-sans {
+    font-family: 'Comic Sans MS', sans-serif;
+  } 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-image: url('../public/wallpaper.jpg'); /* Replace with your image path or URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fixed background, so it doesn't scroll with the page */
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the last value (0.5) to control opacity */
+
+  }
+  
