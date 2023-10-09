@@ -1,0 +1,16 @@
+/* Styles for dark mode */
+.dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .dark h1 {
+    /* color: #ffffff; */
+    color:rgb(228, 13, 49)
+  }
+  
+  .dark button {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
